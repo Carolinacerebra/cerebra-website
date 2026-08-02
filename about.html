@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Who We Are — Cerebra Consulting</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <div class="wrap">
+    <a href="index.html" class="logo"><span class="dot"></span>CEREBRA</a>
+    <div class="navlinks">
+      <a href="about.html">Who We Are</a>
+      <div>
+        <a href="#">What We Do ▾</a>
+        <div class="dropdown">
+          <div class="dropdown-col">
+            <h4>Services</h4>
+            <a href="staff-augmentation.html">Staff Augmentation</a>
+            <a href="cloud-applications.html">Cloud Applications</a>
+            <a href="enterprise-applications.html">Enterprise Applications</a>
+            <a href="big-data-analytics.html">Big Data & Analytics</a>
+          </div>
+          <div class="dropdown-col">
+            <h4>Industries</h4>
+            <a href="about.html#industries">Manufacturing</a>
+            <a href="about.html#industries">Financial Services</a>
+            <a href="about.html#industries">Real Estate</a>
+            <a href="about.html#industries">Gaming & Entertainment</a>
+          </div>
+          <div class="dropdown-col">
+            <h4>Partners</h4>
+            <a href="index.html#partners">Oracle</a>
+            <a href="index.html#partners">Microsoft</a>
+            <a href="index.html#partners">AWS</a>
+            <a href="index.html#partners">Salesforce</a>
+          </div>
+        </div>
+      </div>
+      <a href="public-sector.html">Public Sector</a>
+      <a href="index.html#insights">Insights</a>
+      <a href="about.html#careers">Careers</a>
+    </div>
+    <a href="contact.html" class="cta-btn" style="margin-right:0;">Get in Touch</a>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="wrap">
+    <div class="mobile-panel" id="mobilePanel">
+      <a href="about.html">Who We Are</a>
+      <a href="staff-augmentation.html">Staff Augmentation</a>
+      <a href="cloud-applications.html">Cloud Applications</a>
+      <a href="enterprise-applications.html">Enterprise Applications</a>
+      <a href="big-data-analytics.html">Big Data & Analytics</a>
+      <a href="public-sector.html">Public Sector</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="cta-btn">Get in Touch</a>
+    </div>
+  </div>
+</nav>
+<script>
+  document.getElementById('hamburgerBtn').addEventListener('click', function(){
+    document.getElementById('mobilePanel').classList.toggle('open');
+  });
+</script>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Who We Are</div>
+    <span class="eyebrow">Who We Are</span>
+    <h1>Enterprise expertise, built for the mid-market.</h1>
+    <p>Cerebra is a systems integrator and IT services firm helping organizations modernize, scale, and get more from their technology investments.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="two-col">
+      <div class="content-block">
+        <h2>Our Story</h2>
+        <p>Cerebra Consulting Inc. was founded on a simple idea: enterprise-grade IT expertise shouldn't be reserved only for companies with enterprise-sized budgets. We combine highly capable consultants — many from top-tier consulting firms — with a low-overhead, offshore-supported delivery model to give clients real value without sacrificing quality.</p>
+        <p>We're a one-stop shop for mid-market technology, management consulting, and implementations — from filling an urgent staffing gap to leading a full-scale enterprise system rollout.</p>
+
+        <h2 id="industries">Industries We Serve</h2>
+        <ul>
+          <li><strong>Manufacturing</strong> — long-term partners like Pella Corporation</li>
+          <li><strong>Financial Services</strong> — tax technology and investment banking clients</li>
+          <li><strong>Real Estate</strong> — global real estate services firms</li>
+          <li><strong>Gaming &amp; Entertainment</strong> — public gaming and lottery systems providers</li>
+          <li><strong>Public Sector</strong> — government and public agencies</li>
+        </ul>
+
+        <h2 id="careers">Join the Team</h2>
+        <p>We're always looking for consultants who care about doing quality work for clients who need it. If that's you, get in touch — we'd love to hear from you.</p>
+      </div>
+      <div class="side-card">
+        <h3>At a Glance</h3>
+        <ul>
+          <li>Headquartered in Malvern, PA</li>
+          <li>Offshore delivery center in Visakhapatnam, India</li>
+          <li>Led by CEO Siva Pola</li>
+          <li>Active member, ITServe Alliance</li>
+          <li>Graduate, Goldman Sachs 10,000 Small Businesses program</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mini-cta">
+      <p>Want to work with us, or work for us?</p>
+      <a href="contact.html" class="cta-btn">Get in Touch →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© 2026 Cerebra Consulting, Inc. — Empowering Your Enterprise</div>
+</footer>
+</body>
+</html>
