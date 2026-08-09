@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cerebra Consulting — Enterprise IT Expertise. On Your Terms.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="index.html" class="logo"><img src="images/cerebra-logo.png" alt="Cerebra Consulting"></a>
+    <div class="navlinks">
+      <a href="about.html">Who We Are</a>
+      <div>
+        <a href="#">What We Do ▾</a>
+        <div class="dropdown"><div class="dropdown-inner">
+          <div class="dropdown-col">
+            <h4>Services</h4>
+            <a href="staff-augmentation.html">Staff Augmentation</a>
+            <a href="cloud-applications.html">Cloud Applications</a>
+            <a href="enterprise-applications.html">Enterprise Applications</a>
+            <a href="big-data-analytics.html">Big Data & Analytics</a>
+          </div>
+          <div class="dropdown-col">
+            <h4>Industries</h4>
+            <a href="about.html#industries">Manufacturing</a>
+            <a href="about.html#industries">Financial Services</a>
+            <a href="about.html#industries">Real Estate</a>
+            <a href="about.html#industries">Gaming & Entertainment</a>
+          </div>
+          <div class="dropdown-col">
+            <h4>Partners</h4>
+            <a href="index.html#partners">Oracle</a>
+            <a href="index.html#partners">Microsoft</a>
+            <a href="index.html#partners">AWS</a>
+            <a href="index.html#partners">Salesforce</a>
+          </div></div>
+        </div>
+      </div>
+      <a href="public-sector.html">Public Sector</a>
+      <a href="index.html#insights">Insights</a>
+      <a href="about.html#careers">Careers</a>
+    </div>
+    <a href="contact.html" class="cta-btn" style="margin-right:0;">Get in Touch</a>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="wrap">
+    <div class="mobile-panel" id="mobilePanel">
+      <a href="about.html">Who We Are</a>
+      <a href="staff-augmentation.html">Staff Augmentation</a>
+      <a href="cloud-applications.html">Cloud Applications</a>
+      <a href="enterprise-applications.html">Enterprise Applications</a>
+      <a href="big-data-analytics.html">Big Data & Analytics</a>
+      <a href="public-sector.html">Public Sector</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="cta-btn">Get in Touch</a>
+    </div>
+  </div>
+</nav>
+<script>
+  document.getElementById('hamburgerBtn').addEventListener('click', function(){
+    document.getElementById('mobilePanel').classList.toggle('open');
+  });
+</script>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">IT Consulting &amp; Staff Augmentation</span>
+      <h1>Enterprise IT expertise.<br>On your terms.</h1>
+      <p>Cerebra helps mid-market and enterprise organizations modernize their systems, scale their teams, and turn data into decisions — without the overhead of a traditional consulting firm.</p>
+      <div class="hero-ctas">
+        <a href="contact.html" class="cta-btn">Talk to an Expert →</a>
+        <a href="about.html" class="btn-secondary">See Our Work</a>
+      </div>
+    </div>
+    <svg id="network" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="#3D6FA3" stroke-width="1" opacity="0.6">
+        <line x1="60" y1="80" x2="180" y2="140"/>
+        <line x1="180" y1="140" x2="320" y2="90"/>
+        <line x1="180" y1="140" x2="140" y2="260"/>
+        <line x1="140" y1="260" x2="280" y2="300"/>
+        <line x1="140" y1="260" x2="40" y2="320"/>
+        <line x1="280" y1="300" x2="340" y2="220"/>
+        <line x1="320" y1="90" x2="340" y2="220"/>
+        <line x1="60" y1="80" x2="140" y2="260"/>
+      </g>
+      <g fill="#F26522">
+        <circle cx="180" cy="140" r="7"><animate attributeName="r" values="7;9;7" dur="3s" repeatCount="indefinite"/></circle>
+        <circle cx="140" cy="260" r="6"/>
+        <circle cx="280" cy="300" r="5"/>
+      </g>
+      <g fill="#5A8FC9">
+        <circle cx="60" cy="80" r="5"/>
+        <circle cx="320" cy="90" r="5"/>
+        <circle cx="340" cy="220" r="5"/>
+        <circle cx="40" cy="320" r="4"/>
+      </g>
+    </svg>
+  </div>
+</section>
+
+<section class="pillars">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Why Cerebra</span>
+      <h2>A partner built for how mid-market IT actually works.</h2>
+    </div>
+    <div class="pillar-grid">
+      <div class="pillar">
+        <div class="pillar-num">01 — Proven</div>
+        <h3>Proven at Scale</h3>
+        <p>Trusted by public companies and enterprise leaders across manufacturing, financial services, and real estate for over a decade.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar-num">02 — Talent</div>
+        <h3>Senior Talent, Real Value</h3>
+        <p>Our consultants come from top-tier firms, delivered at rates that make sense for mid-market budgets.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar-num">03 — Simplicity</div>
+        <h3>One Partner, End-to-End</h3>
+        <p>From staffing gaps to full system implementations, we handle it — so you're not managing five vendors instead of one.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="staffaug">
+    <div>
+      <span class="eyebrow" style="color:#FFB088;">Featured Service</span>
+      <h2>Need the right people, fast?</h2>
+      <p>When a critical project can't wait for a full hiring cycle, Cerebra delivers vetted, enterprise-ready IT talent — for a few months or a few years. No overhead. No ramp-up delays. Just the expertise you need, when you need it.</p>
+      <a href="staff-augmentation.html" class="cta-btn">Explore Staff Augmentation →</a>
+    </div>
+    <div class="staffaug-stats">
+      <div class="stat"><div class="num">10+</div><div class="label">Years supporting long-term enterprise partners</div></div>
+      <div class="stat"><div class="num">5</div><div class="label">Technology partner certifications</div></div>
+      <div class="stat"><div class="num">2</div><div class="label">Delivery centers — onshore &amp; offshore</div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">What We Do</span>
+      <h2>Three ways we move your business forward.</h2>
+    </div>
+    <div class="focus-grid">
+      <div class="focus-card">
+        <div class="focus-icon">☁️</div>
+        <span class="focus-tagline">Move to the Cloud with Confidence</span>
+        <h3>Cloud Applications</h3>
+        <p>We plan and execute your cloud migration strategy so your systems scale without disruption.</p>
+        <a href="cloud-applications.html" class="learn">Learn More →</a>
+      </div>
+      <div class="focus-card">
+        <div class="focus-icon">⚙️</div>
+        <span class="focus-tagline">Get More From What You Already Rely On</span>
+        <h3>Enterprise Applications</h3>
+        <p>We upgrade, manage, and extend the life of your core business applications.</p>
+        <a href="enterprise-applications.html" class="learn">Learn More →</a>
+      </div>
+      <div class="focus-card">
+        <div class="focus-icon">📊</div>
+        <span class="focus-tagline">Turn Your Data Into Decisions</span>
+        <h3>Big Data &amp; Analytics</h3>
+        <p>We help you build the infrastructure and insight to make data-driven calls with confidence.</p>
+        <a href="big-data-analytics.html" class="learn">Learn More →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="logostrip">
+  <div class="wrap">
+    <div class="section-head" style="margin-bottom:28px;">
+      <span class="eyebrow">Technology Partners</span>
+      <h2 style="font-size:1.4rem;">Backed by industry-leading technology partners</h2>
+    </div>
+    <div class="logo-row">
+      <div class="logo-chip">Oracle</div>
+      <div class="logo-chip">Microsoft</div>
+      <div class="logo-chip">AWS</div>
+      <div class="logo-chip">Salesforce</div>
+      <div class="logo-chip">Cloudera</div>
+      <div class="logo-chip">Tyler Tech</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head" style="margin-bottom:28px;">
+      <span class="eyebrow">Client Partners</span>
+      <h2 style="font-size:1.4rem;">Trusted by teams who can't afford to get it wrong</h2>
+    </div>
+    <div class="logo-row">
+      <div class="logo-chip">ABM Industries</div>
+      <div class="logo-chip">Vertex</div>
+      <div class="logo-chip">Scientific Games</div>
+      <div class="logo-chip">Pella</div>
+      <div class="logo-chip">Cushman &amp; Wakefield</div>
+    </div>
+  </div>
+</section>
+
+<section class="pillars">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">What Clients Say</span>
+      <h2>Results our partners actually talk about.</h2>
+    </div>
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <span class="quote-mark">"</span>
+        <p>Cerebra has been helping us with our IT needs for the past ten years... very easy to work with, fast and efficient.</p>
+        <div class="who">DIRECTOR, IT SERVICES — TAX SERVICES COMPANY</div>
+      </div>
+      <div class="testimonial">
+        <span class="quote-mark">"</span>
+        <p>Excellent service and high-quality solutions... their commitment to meet our expectations is equally impressive.</p>
+        <div class="who">IT DIRECTOR — GAMING COMPANY</div>
+      </div>
+      <div class="testimonial">
+        <span class="quote-mark">"</span>
+        <p>They executed the upgrade project without any hiccups... I would recommend them.</p>
+        <div class="who">MANAGER, FINANCIAL SYSTEMS — INVESTMENT BANK</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="final-cta">
+    <h2>Ready to move faster?</h2>
+    <p>Whether you need one specialist or a full implementation team, let's talk about what Cerebra can take off your plate.</p>
+    <a href="contact.html" class="cta-btn">Get in Touch →</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© 2026 Cerebra Consulting, Inc. — Empowering Your Enterprise</div>
+</footer>
+
+</body>
+</html>
